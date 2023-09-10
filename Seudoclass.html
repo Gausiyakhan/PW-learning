@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pseudo Class</title>
+    <style>
+      .hover:hover {
+        background-color: pink;
+        color: white;
+      }
+      input:focus {
+        background-color: black;
+        color: white;
+        font-size: 35px;
+      }
+      a:hover {
+        color: pink;
+      }
+      a:active {
+        color: black;
+      }
+      a:visited {
+        color: aqua;
+      }
+      /*a:first-child{
+        background-color: yellow;
+      }*/
+      a:nth-child(2n + 1) {
+        background-color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Pseudo Class -->
+    <p class="hover">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita,
+      voluptate.
+    </p>
+    <input type="text" />
+    <nav>
+      <a href="https://www.google.com/">Google</a>
+      <a href="https://www.google.com/">Google</a>
+      <a href="https://www.google.com/">Google</a>
+      <a href="https://www.google.com/">Google</a>
+      <a href="https://www.google.com/">Google</a>
+      <a href="https://www.google.com/">Google</a>
+    </nav>
+  </body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pseudo element</title>
+    <style>
+      p::first-line {
+        color: yellow;
+      }
+      p::after {
+        content: "-Anurag";
+        color: brown;
+      }
+      p::before {
+        content: "-Anurag";
+        color: red;
+      }
+      p::selection {
+        background-color: blueviolet;
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <a href="https://www.google.com/">Google</a>
+      <a href="https://www.google.com/">Google</a>
+      <a href="https://www.google.com/">Google</a>
+      <a href="https://www.google.com/">Google</a>
+      <a href="https://www.google.com/">Google</a>
+    </nav>
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt,
+      praesentium eos porro cum nisi odio laudantium aliquam beatae excepturi
+      ratione? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim
+      doloremque consequatur sunt? Quo doloribus quam eos blanditiis odit maxime
+      perspiciatis?
+    </p>
+  </body>
+</html>
